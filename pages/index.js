@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
+        </p>
+        <p className={styles.description}>
+          Read <Link href="/posts/first-post">this page</Link>
         </p>
 
         <div className={styles.grid}>
