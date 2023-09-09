@@ -5,6 +5,12 @@ export default function FirstPost() {
   return (
     <>
       <h1>First Post</h1>
+      <Image
+        src="/images/portrait-alexandre-steinhauslin.jpg" // Route of the image file
+        height={144} // Desired size with correct aspect ratio
+        width={144} // Desired size with correct aspect ratio
+        alt="Alexandre Steinhauslin"
+  />
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
